@@ -92,3 +92,32 @@ FROM film
 WHERE special_features @> ARRAY['Deleted Scenes'];
 ```
 
+# Adding & Subtracting date / time data
+- subtracting date
+  ```
+  SELECT date '2005-09-11' - date '2005-09-10';
+  ```
+
+  The query above will result in an integer type of 1.
+
+- adding date
+  ```
+  SELECT date '2005-09-11' + integer '3'; 
+  ```
+  The query above will result in a date value of '2005-09-14'
+
+- subtracting time stamp data
+
+  ```
+  SELECT date '2005-09-11 00:00:00' - date '2005-09-09 12:00:00';
+
+  ```
+  The output of the query above is an interval, '1 day 12:00:00'
+
+- Adding Date / time arthmetic using INTERVALs
+  ```
+  SELECT timestamp '2019-05-01' + 21 * INTERVAL '1 day';
+
+  ```
+
+
