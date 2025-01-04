@@ -37,8 +37,19 @@ CREATE TABLE my_first_table (
 );
 ```
 
+
+
 ## Inserting into the table created above
 ```
 INSERT INTO my_first_table
   (first_column, second_column) VALUES ('text value', 12);
 ```
+
+## ARRAY a special type
+- creating a simple table with 2 array columns
+```
+CREATE TABLE grades(
+	student_id int,
+	email text[][],
+	test_scores int []
+};
