@@ -216,4 +216,13 @@ FROM
 	film AS f;
 ```
 
+## Extracting substrings of character data
+```
+SELECT
+	SUBSTRING(email FROM POSITION('@' IN email)+1 FOR CHAR_LENGTH(email))
+FROM
+	customer;
+```
+
+
 
