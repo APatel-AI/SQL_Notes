@@ -181,3 +181,39 @@ FROM film;
 ```
 
 
+## Determining the length of a string
+use the function CHAR_LENGTH(): accepts a string as the input and returns the number of characters in the string as an integer for the output.
+```
+SELECT
+	title,
+	CHAR_LENGTH(title)
+FROM film;
+```
+
+## Finding the position of a character in a string
+use the function STRPOS(var, '' ): takes in 2 parameters the location and the thing you are looking for
+```
+SELECT
+	email,
+	STRPOS(email, '@')
+FROM customer;
+```
+
+## Parsing string data
+```
+SELECT
+	LEFT(description, 50)
+FROM film;
+
+```
+
+## Extracting substrings of character data
+use the SUBSTRING() function: it takes 3 parameters, 1: the source string or column, 2:integer value representing the start of the string, 3:the length of the substring you want to extract.
+```
+SELECT
+	SUBSTRING(description, 10, 50)
+FROM
+	film AS f;
+```
+
+
