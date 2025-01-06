@@ -225,4 +225,25 @@ FROM
 ```
 
 
+### Truncating & Padding string data
+The TRIM() function:
+	- removes characters from start of string, end of a string, or both together.
+ 	- it accepts 3 parameters 
+  		- First parameter: [leading | trailing | both ]
+    		- Second parameter: [characters]
+      		- Third parameter: string that you wish to trim
+
+### removing whitespace from strings
+```
+SELECT TRIM('  padded  '); -> removes space on both sides
+SELECT LTRIM('  padded  '): -> removes space from the left side only
+SELECT RTRIM -> the opposite as LTRIM
+```
+
+### Padding strings with character data
+```
+SELECT LPAD ('padded', 10, '#'); -> the string, the total length you want, the value you want to implement as padding
+- without the third param it will replace the padding with white space
+```
+
 
