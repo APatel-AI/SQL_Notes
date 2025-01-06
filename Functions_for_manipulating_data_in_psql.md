@@ -120,4 +120,64 @@ WHERE special_features @> ARRAY['Deleted Scenes'];
 
   ```
 
+# The String Concatenation operator
+### Example
+```
+SELECT
+	first_name,
+	last_name,
+	first_name || ' ' || last_name AS full_name
+FROM customer
+
+```
+You can also use CONCAT() in psql
+
+### Example
+```
+SELECT
+	CONCAT(first_name, ' ', last_name) AS full_name
+FROM customer;
+```
+
+### String concatenation with non-string input
+```
+SELECT
+	customer_id || ': '
+	|| first_name || ' '
+	|| last_name AS full_name
+FROM customer;
+```
+
+### Changing the case of string
+
+```
+SELECT
+	UPPER(email)
+FROM customer;
+```
+or 
+
+``` 
+SELECT
+	LOWER(email)
+FROM customer;
+```
+
+or
+
+``` 
+SELECT
+	INITCAP(email)
+FROM customer;
+```
+
+### Replacing characters in a string
+
+use the replace function 'REPLACE()'
+```
+SELECT
+	REPLACE(description, 'A Astounding', 'An Astounding') as description
+FROM film;
+```
+
 
