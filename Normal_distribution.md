@@ -15,6 +15,6 @@ Kurtosis: A way describing the occurrence of extreme values in a distribution.
 
 ![Screen Shot 2025-01-08 at 4 21 53 PM](https://github.com/user-attachments/assets/a0281636-3593-4dca-90d7-3ef4d7e2b287)
 
-Lepto: postive
-Meso: normal
-Plat: negative
+- Lepto: postive
+- Meso: normal
+- Plat: negative
