@@ -15,3 +15,11 @@
   - Stock prices
 - Interval/count data:
   - How many cups of coffee do people drink per day ?
+  
+## Types of data: Categorical data
+- Nominal data:
+  - eye color
+- Ordinal data:
+  - How strongly do you agree that basketball is the best sport?
+
+  
