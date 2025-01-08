@@ -39,3 +39,16 @@
          
     - Measure of center: mode
         - Mode: the most frequent value
+     
+  # Measure of spread
+  ## why is spread important
+  - Spread measures the variety of our data
+
+  - Measures of spread
+      - Range: range = maximum - minimum
+      - Variance: variance = sum of squared values (we take the sqaureroot because of the negative values) / total values
+      - To better undertand the variance we can calculate the standard deviation
+         - Standard deviation: square root of the variance calculated.
+         - The closer the standard deviation is to 0 the closer the data is clustered to the mean
+      - Quartiles: splitting the data into 4 equal parts
+      - 
