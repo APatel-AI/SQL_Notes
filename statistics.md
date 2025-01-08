@@ -9,3 +9,9 @@
 ## Limitations of statistics
 - Statistics requires specific, measurable questions
 - We can't use statistics to find out WHY relationships exist.
+
+## Types of data: numeric
+- Continuos data:
+  - Stock prices
+- Interval/count data:
+  - How many cups of coffee do people drink per day ?
