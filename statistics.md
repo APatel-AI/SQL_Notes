@@ -36,3 +36,6 @@
         - median
             - sort the values from least to greatest
             - take the sum of the two middle values and divide by 2
+         
+    - Measure of center: mode
+        - Mode: the most frequent value
