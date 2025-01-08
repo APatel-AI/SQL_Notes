@@ -23,3 +23,6 @@
   - How strongly do you agree that basketball is the best sport?
 
   
+# Measures of center
+## Why are measures of center useful ? 
+- Terminology like "average", "most common", and "typical value" are all examples where measures of center are expressed in day to day life. 
